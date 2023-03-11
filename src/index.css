@@ -1,0 +1,54 @@
+:root {
+  --blue: #0781F0;
+  --light-blue: #AAD7FF;
+  --lightest-blue: #EBF5FF;
+  --white-blue: #FAFCFF;
+  --purple: #711EB3;
+  --black: #000;
+  --white: #FFF;
+  --gray: #D9D9D9;
+  --medium: 500;
+  --regular: 400;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--blue);
+  border: none;
+  padding: 0 81px;
+  border-radius: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: var(--regular);
+  line-height: 20px;
+  color: var(--white);
+  height: 48px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

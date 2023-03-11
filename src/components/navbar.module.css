@@ -1,0 +1,54 @@
+.nav {
+  height: 95px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-container span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+.back-icon {
+  fill: var(--white);
+  width: 24px;
+  height: 24px;
+}
+
+.back-icon:hover {
+  cursor: pointer;
+}
+
+.nav-container-auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-container-auth div {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container-auth div img,
+.nav-container-auth div span,
+.nav-container-auth div button {
+  margin-right: 16px;
+}
+
+.nav-container-auth button {
+  margin: 0;
+}
+
+.nav-container-auth span {
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: var(--medium);
+}
