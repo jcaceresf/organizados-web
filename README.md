@@ -1,5 +1,5 @@
 # Organizados (versión web)
-Proyecto web creado con React, usando Vite como bundler. Para ejecutar el proyecto localmente, debe clonarse y luego: 
+Proyecto creado con React, usando Vite como bundler. Para ejecutar el proyecto localmente, debe clonarse y luego: 
 
 ```
 npm install 
